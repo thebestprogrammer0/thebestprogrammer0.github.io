@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c6d71ea-02b6-4220-b88b-d85a25457ef1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kh6rZoDuiuLJrqhdwf9Kytx22G" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../self page" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebProjects\html\MusicPlayer\Images" />
+      <recent name="D:\WebProjects\html\MusicPlayer\Music\Mafia3" />
+      <recent name="C:\Users\USER\Desktop\html\MusicPlayer\Music" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c6d71ea-02b6-4220-b88b-d85a25457ef1" name="Default Changelist" comment="" />
+      <created>1606140676688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606140676688</updated>
+      <workItem from="1606140682949" duration="237000" />
+      <workItem from="1606141115553" duration="9506000" />
+      <workItem from="1606195441535" duration="18539000" />
+      <workItem from="1606398772153" duration="9890000" />
+      <workItem from="1606469596203" duration="19779000" />
+      <workItem from="1606541840332" duration="32604000" />
+      <workItem from="1606645301952" duration="11054000" />
+      <workItem from="1606729747563" duration="15781000" />
+      <workItem from="1606805170483" duration="5117000" />
+      <workItem from="1606817517068" duration="598000" />
+      <workItem from="1606827643985" duration="10220000" />
+      <workItem from="1606905586549" duration="3041000" />
+      <workItem from="1606919674554" duration="7549000" />
+      <workItem from="1606998229067" duration="12519000" />
+      <workItem from="1607072706533" duration="178000" />
+      <workItem from="1607082708487" duration="9442000" />
+      <workItem from="1607162274282" duration="6117000" />
+      <workItem from="1607235238659" duration="7974000" />
+      <workItem from="1607332508584" duration="3053000" />
+      <workItem from="1607419995112" duration="122000" />
+      <workItem from="1607779799537" duration="6569000" />
+      <workItem from="1607857656191" duration="8908000" />
+      <workItem from="1608027904893" duration="8744000" />
+      <workItem from="1615011941835" duration="161000" />
+      <workItem from="1618068176585" duration="509000" />
+      <workItem from="1618069424079" duration="2268000" />
+      <workItem from="1618120097685" duration="10122000" />
+      <workItem from="1618233586447" duration="10965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

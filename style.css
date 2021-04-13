@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgb(16, 30, 47);
+}
+
+#mainImagesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#mainImage1, #mainImage2, #mainImage3 {
+    margin-top: 25vh;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    opacity: 0.7;
+}
+
+#mainImage1 {
+    background: url('./Images/Poster1.png') no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 400px;
+}
+
+#mainImage2 {
+    background: url('./Images/Poster2.png') no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 400px;
+}
+
+#mainImage3 {
+    background: url('./Images/Poster3.png') no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 400px;
+}
+
+#mainImage1:hover, #mainImage2:hover, #mainImage3:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+#mafia1, #mafia2, #mafia3 {
+    display: none;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#musicControl {
+    display: none;
+    position: fixed;
+    align-items: center;
+    height: 90px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(11, 21, 33);
+}
+
+#prev {
+    background: url("./Images/Prev.png") no-repeat;
+    opacity: 0.7;
+    background-size: 100%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    outline: none;
+}
+
+#next {
+    background: url("./Images/Next.png") no-repeat;
+    opacity: 0.7;
+    background-size: 100%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin-left: 10px;
+    outline: none;
+}
+
+#isPaused {
+    background: url("./Images/IsPaused.png") no-repeat;
+}
+
+#isPlaying {
+    display: none;
+    background: url("./Images/IsPlaying.png") no-repeat;
+}
+
+#isPaused, #isPlaying {
+    opacity: 0.7;
+    background-size: 100%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-left: 10px;
+    outline: none;
+}
+
+#prev:hover, #next:hover, #isPaused:hover, #isPlaying:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#musicButtons {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.musicControlLine {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 60px;
+    width: 2px;
+    margin-left: 2%;
+}
+
+#audioCropper {
+    width: 445px;
+    overflow: hidden;
+    margin-left: 2%;
+}
+
+#music {
+    width: 500px;
+    margin-left: -25px;
+}
+
+#music::-webkit-media-controls-mute-button, #music::-webkit-media-controls-mute-button,
+#music::-webkit-media-controls-play-button, #music::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+#music::-webkit-media-controls-panel {
+    background-color: rgb(11, 21, 33);
+}
+
+#music::-webkit-media-controls-timeline-container {
+    background-color: blue;
+}
+
+#music::-webkit-media-controls-current-time-display {
+    position: relative;
+    color: white;
+    font-size: 12px;
+    opacity: 1;
+    left: 410px;
+    padding: 5px 15px;
+}
+
+#music::-webkit-media-controls-timeline {
+    position: relative;
+    width: 10px;
+    right: 50px;
+    cursor: pointer;
+}
+
+#volumeControl {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+#lowVolume {
+    background: url("./Images/LowVolume.png") no-repeat;
+    opacity: 0.7;
+    background-size: 100%;
+    width: 14px;
+    height: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#highVolume {
+    background: url("./Images/HighVolume.png") no-repeat;
+    opacity: 0.7;
+    background-size: 100%;
+    width: 28px;
+    height: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#lowVolume:hover, #highVolume:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#volumeRange {
+    background-color: dodgerblue;
+    -webkit-appearance: none;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#volumeRange::-webkit-slider-runnable-track {
+    height: 5px;
+    border: 1px #000000;
+}
+
+#volumeRange::-webkit-slider-thumb {
+    border: 1px solid #000000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}
+
+#songName {
+    z-index: 1;
+    position: relative;
+    width: 400px;
+    height: 42px;
+    color: #c2c2be;
+    top: 23px;
+    left: 20px;
+    font-size: 14px;
+}
+
+.selectButton {
+    text-align: center;
+    background: none;
+    width: 160px;
+    height: 50px;
+    font-size: 26px;
+    letter-spacing: 4px;
+    color: darkred;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectButton:hover {
+    background-color: darkred;
+    color: white;
+    transition: 0.2s;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(11, 21, 33);
+    box-shadow: 0 5px 11px 3px rgb(14, 36, 57);
+    padding: 15px;
+}
+
+#headerText {
+    background: url("./Images/Mafia.png") no-repeat;
+    background-size: 100%;
+    width: 282px;
+    height: 34px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#headerButtons {
+    padding-right: 30px;
+}
+
+.musicList button {
+    background: none;
+    color: #c2c2be;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.musicList button:hover {
+    color: white;
+}
+
+@media all and (max-width: 430px) {
+    #header {
+        height: 60px;
+        width: 100%;
+    }
+
+    #headerButtons {
+        display: none;
+    }
+
+    button div:nth-child(3), button div:nth-child(4) {
+        display: none;
+    }
+
+    button div:nth-child(2) {
+        width: 200px;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    button div:nth-child(1) {
+        font-size: 28px;
+    }
+
+    #volumeControl {
+        display: none;
+    }
+
+    #musicControl {
+        flex-direction: column;
+        margin: 0;
+        height: 150px;
+    }
+
+    #music {
+        width: 450px;
+    }
+
+    #music::-webkit-media-controls-current-time-display {
+        left: 360px;
+        font-size: 24px;
+        padding: 5px 15px;
+    }
+
+    #audioCropper {
+        overflow: hidden;
+        margin-left: 2px;
+    }
+
+    .musicControlLine {
+        display: none;
+    }
+
+    #timeLine {
+        position: relative;
+        bottom: 30px;
+    }
+
+    #musicButtons {
+        position: relative;
+        top: 90px;
+    }
+
+    #mafia1, #mafia2, #mafia3 {
+        padding-bottom: 180px;
+    }
+
+    #mainImagesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}

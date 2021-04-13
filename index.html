@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/icon.png" type="image/gif">
+    <title>Mafia Radio</title>
+</head>
+
+<body>
+    <audio id="musicTime" src="" preload="metadata"></audio>
+
+    <section id="header">
+        <button onclick="reload()" id="headerText"></button>
+        <div id="headerButtons">
+            <button onclick="activateMafia1()" class="selectButton">MAFIA</button>
+            <button onclick="activateMafia2()" class="selectButton">MAFIA II</button>
+            <button onclick="activateMafia3()" class="selectButton">MAFIA III</button>
+        </div>
+    </section>
+
+    <section id="mainImagesContainer">
+        <button onclick="activateMafia1()" id="mainImage1"></button>
+        <button onclick="activateMafia2()" id="mainImage2"></button>
+        <button onclick="activateMafia3()" id="mainImage3"></button>
+    </section>
+
+    <section id="mafia1">
+        <section class="musicList">
+        </section>
+    </section>
+
+    <section id="mafia2">
+        <section class="musicList">
+        </section>
+    </section>
+
+    <section id="mafia3">
+        <section class="musicList">
+        </section>
+    </section>
+
+    <section id="musicControl">
+        <div id="musicButtons">
+            <button onclick="prevMusic()" id="prev"></button>
+            <button onclick="pausePlayMusic()" id="isPaused"></button>
+            <button onclick="pausePlayMusic()" id="isPlaying"></button>
+            <button onclick="nextMusic()" id="next"></button>
+        </div>
+        <div class="musicControlLine"></div>
+        <div id="volumeControl">
+            <button id="lowVolume" onclick="lowVolume()"></button>
+            <label>
+                <input type="range" oninput="updateVolume()" id="volumeRange">
+            </label>
+            <button id="highVolume" onclick="highVolume()"></button>
+        </div>
+        <div class="musicControlLine"></div>
+        <div id="timeLine">
+            <div id="songName"></div>
+            <div id="audioCropper">
+                <audio id="music" controls></audio>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

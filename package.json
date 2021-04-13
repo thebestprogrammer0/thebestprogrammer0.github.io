@@ -1,0 +1,7 @@
+{
+  "name": "MusicPlayer",
+  "version": "1.0.0",
+  "dependencies": {
+    "get-audio-duration": "latest"
+  }
+}
